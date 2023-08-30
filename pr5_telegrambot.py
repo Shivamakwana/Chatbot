@@ -6,7 +6,7 @@ from openpyxl.styles import Font
 from datetime import datetime  # Import the datetime module
 
 # Replace 'YOUR_TOKEN' with your actual Telegram bot token
-bot = telebot.TeleBot('6250271836:AAHBThrZfUqdjBhDzmphYaJ0n1R6tTu7p0c')
+bot = telebot.TeleBot('YOUR_TOKEN')
 
 user_data = {}
 
