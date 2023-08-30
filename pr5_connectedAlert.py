@@ -13,9 +13,9 @@ poor_performance_df = df[df['Performance'] == 'Poor']
 # Send an email if there are poor performances
 if not poor_performance_df.empty:
     # Email configuration (replace with your actual credentials)
-    sender_email = 'cvammakwana@gmail.com'
-    sender_password = 'spjnskapopsjrndj'
-    recipient_email = 'cvammakwana@gmail.com'
+    sender_email = 'SENDER_EMAIL'
+    sender_password = 'PASSWORD'
+    recipient_email = 'RECIPIENT_EMAIL'
     smtp_server = 'smtp.gmail.com'
     smtp_port = 587
 
